@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aqua;
+}
+
+.container-head{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container-head > div{
+    padding: 5px;
+    border: 1px dashed black;
+    background-color: yellow;
+    min-width: 25%  ;
+}
+
+.nav-bar{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.first-container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.first-section{
+    background-color: blue;
+}
+
+.first-container > div{
+    width: 100%;
+    height: 400px;
+    border: 1px dashed black;
+    background-color: pink;
+}
+
