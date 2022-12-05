@@ -11,7 +11,7 @@ header{
     display: flex;
     width: 80%;
     margin: 0 auto;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .container-head > div{
@@ -29,7 +29,7 @@ header{
 .first-container{
     width: 60%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .back-blue{
@@ -47,7 +47,7 @@ header{
     display: flex;
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .container > div{
@@ -76,7 +76,7 @@ header{
 .last-container{
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .last-container > div{
@@ -85,7 +85,49 @@ header{
     border: 1px dashed black;
     background-color: green;
 }
- footer{
-    margin-top: auto;
- }
 
+.back-black{
+    padding: 5px 0 20px;
+    background-color: black;
+}
+
+.container-foot{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px dashed black;
+}
+
+.container-foot > div{
+    flex-grow: 1;
+    height: 500px;
+    border: 1px dashed white;
+    background-color: aqua;
+}
+
+.container-foot :first-child{
+    min-width: calc(100% / 3);
+    background-color: brown;
+    border: 1px dashed black;  
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+nav > div{
+    padding: 5px;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+footer > section{
+    background-color: black;
+    margin-top: 1px;
+    padding: 20px 0 0;
+}
