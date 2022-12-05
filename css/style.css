@@ -43,3 +43,32 @@ header{
     background-color: pink;
 }
 
+.container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container > div{
+    min-width: 40%;
+    height: 500px;
+    border: 1px dashed black;
+}
+
+.container :first-child{
+    flex-grow: 1;
+    background-color: lightskyblue;
+}
+
+.container :last-child{
+    background-color: lightpink;
+}
+
+.container.rev{
+    flex-direction: row-reverse;
+}
+
+
+
+
